@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="220dp"
+                android:src="@drawable/azard" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="left"
+                android:typeface="sans"
+                android:text="埃登·阿扎尔"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:typeface="sans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    埃登·阿扎尔（Eden Hazard），1991年1月7日生于拉卢维耶尔，比利时足球运动员，司职左边锋，曾效力英超的切尔西足球俱乐部，现效力皇家马德里足球俱乐部。
+
+\n    2007-08赛季在里尔出道的阿扎尔，在自己职业生涯的前8个赛季中，拿到了包括法甲最佳年轻球员、法甲最佳球员、英超最佳年轻球员和英超最佳在内的6个最佳称号。2014-15赛季仅仅是阿扎尔加盟英超切尔西的第3个赛季，就接荣获英格兰职业球员公会的年度最佳年轻球员和年度最佳球员 。阿扎尔是连续两年当选的法甲年度最佳青年球员，不但成为该奖项1994年创立以来的首位非法国籍得奖者，而且也是第一个能够卫冕奖项的人。
+
+\n    2018年1月3日，阿扎尔被球迷评选为比利时年度最佳球员。6月，随比利时国家队出征2018年俄罗斯世界杯。7月14日，三四名决赛，比利时队2-0战胜英格兰队，获得本届世界杯第三名。第81分钟，阿扎尔的进球帮助比利时2-0锁定胜局。9月16日，在切尔西4-1战胜卡迪夫城的比赛中，阿扎尔上演了帽子戏法，帮助球队逆转取胜的同时，也助切尔西登上了积分榜榜首。此役过后，阿扎尔已经代表切尔西上演了两次帽子戏法。
+
+\n    2019年5月14日，阿扎尔已经和皇家马德里足球俱乐部签下了5年长约，官宣在即。" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
